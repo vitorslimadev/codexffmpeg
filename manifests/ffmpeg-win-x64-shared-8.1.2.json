@@ -1,0 +1,24 @@
+{
+  "product": "FFmpeg",
+  "distribution": "IT Manager",
+  "version": "8.1.2",
+  "architecture": "win-x64",
+  "build": "full_build-shared",
+  "license": "GPL-3.0-only",
+  "source": "https://github.com/FFmpeg/FFmpeg/commit/38b88335f9",
+  "upstreamProvider": "https://www.gyan.dev/ffmpeg/builds/",
+  "upstreamArchive": "ffmpeg-8.1.2-full_build-shared.7z",
+  "upstreamSha256": "cba748035c21ce1431d0823c7a3a711f38616f89f87a265dceddf9b7f6749d2d",
+  "runtimePackage": "ffmpeg-win-x64-shared-8.1.2.zip",
+  "runtimeSha256": "589fd8b41d71ce7b892177343f43cc98ebcc0ad35663a8a3558804776e3d995a",
+  "runtimeLayout": "FFmpeg/bin",
+  "requiredLibraries": [
+    "avcodec-62.dll",
+    "avformat-62.dll",
+    "avutil-60.dll",
+    "swresample-6.dll",
+    "swscale-9.dll"
+  ],
+  "validatedAt": "2026-10-15",
+  "notes": "Build shared distribuído com aviso GPLv3 do fornecedor. A distribuição comercial deve passar por revisão jurídica e manter o código-fonte correspondente disponível conforme a licença."
+}

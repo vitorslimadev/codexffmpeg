@@ -29,3 +29,10 @@ https://www.gyan.dev/ffmpeg/builds/ffmpeg-tools.zip.sha256
 All hashes are for the 7-zip archives unless marked otherwise in the URL.
 
 [![Buy me a cuppa](../assets/bmc-192.png)](https://www.buymeacoffee.com/gyan)
+
+## IT Manager
+
+The IT Manager validated and publishes a pinned FFmpeg 8.1.2 Full Shared x64 runtime
+through an immutable release. See [README-ITMANAGER.md](README-ITMANAGER.md), the
+[manifest](manifests/ffmpeg-win-x64-shared-8.1.2.json), and
+[third-party notices](THIRD-PARTY-NOTICES.md).
